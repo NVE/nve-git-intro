@@ -88,8 +88,8 @@ Assume we did not want the hello.py file in our repo.
 ## Tips and tricks
 
 - Stick to English when writing code.
-- If your project grows come up with good structure. What is a good structure? 
-- Use meaningful and descriptive names for variables, functions, files, ...
+- If your project grows come up with a good structure. What is a good structure? Pfff...well, it is a start to stick to the next point
+- Use meaningful and descriptive names for variables, functions, files, folders, ...
 - Don't use passwords or other sensitive information in your files - the world can see them (make proper use of .gitignore)
 - Don't talk dirty in your comments - again the world can read them and you represent NVE.
 
