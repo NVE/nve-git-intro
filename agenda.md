@@ -81,3 +81,16 @@ Assume we did not want the hello.py file in our repo.
         git rm hello.py
 
 ## Sharing code online
+
+...
+
+
+## Tips and tricks
+
+- Stick to English when writing code.
+- If your project grows come up with good structure. What is a good structure? 
+- Use meaningful and descriptive names for variables, functions, files, ...
+- Don't use passwords or other sensitive information in your files - the world can see them (make proper use of .gitignore)
+- Don't talk dirty in your comments - again the world can read them and you represent NVE.
+
+
