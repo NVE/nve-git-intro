@@ -99,7 +99,7 @@ and added it to our *.gitignore* file.
 ### Branching
 
 Branching allows you to experiment with your current code without the need to roll back if things go wrong.
-it is nice for testing new features. It becomes essential when you work with production code, where you always need to 
+It is nice for testing new features. It becomes essential when you work with production code, where you always need to 
 be able to fix bugs in the production version while working on new features.
 Here is a quick run through
 
@@ -178,9 +178,11 @@ Check out what has been done so far?
 
     git log
     
-Make some changes, commit them and try to push them to the remote repository.
+Make some changes, commit then and try to push them to the remote repository.
+We hope you got an idea of the potential and advantages *version control* using *git* or any other protocol has to offer.
+Check out the [ebook](http://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) or the infinite other resources around that topic on the web.
 
-
+Some final remarks before we finish...
 
 
 ## Tips and tricks
