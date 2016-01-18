@@ -96,27 +96,97 @@ Assume we did not want the hello.py file in our repo.
 If we wanted to keep *hello.py* in our work folder, but do not track it we could have used *git rm --cached hello.py* 
 and added it to our *.gitignore* file.
 
+### Branching
+
+Branching allows you to experiment with your current code without the need to roll back if things go wrong.
+it is nice for testing new features. It becomes essential when you work with production code, where you always need to 
+be able to fix bugs in the production version while working on new features.
+Here is a quick run through
+
+We first create and switch to a new branch.
+
+    git branch participants
+    git checkout participants
+    # alternatively you could use *git checkout -b participants*
+    
+We edit our working version
+    
+    nano participants.md # list all participants
+    git add participants.md
+    git commit -m 'added list of participants'
+    
+Once we have tested our branch and everything seems fine we can *merge* it with the main or *master* branch.
+    
+    git checkout master
+    git merge participants
+    
+Now we can remove the *participants* branch and check the status and log of our project.
+
+    git branch -d participants   
+    git status
+    git log
+    
+More on branching in the [ebook](http://git-scm.com/book/en/v2/Git-Branching-Branch-Management)
+
+
+
 ## Sharing code online
+
+You need to register at [github.com](www.github.com).
+
+Now you can either *fork*, *clone*, or make your own projects.
+
+*Forking* means you copy an existing project into your account to gain full permission to tweak it to your liking.
+Your improvements can be send back to the original project by a "pull request", which the owner of the original project
+need to authorize.
+
+We will not look int *forking* here, but you find more in the [ebook](http://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project). 
 
 ### Creating a new repository on *GitHub.com*
 
+Got to [github.com](www.github.com) log in and choose *New repository*
 
+![new repo](./img/newrepo.png)
+
+Copy or note the URL to your repository, e.g. https://github.com/kmunve/testndestroy.git and go back to your local folder.
+Now add the remote repository.
+
+    git remote add origin https://github.com/kmunve/testndestroy.git
+    git remote -v
+    
+Now we can bring ( *push* ) our local stuff to the public.
+    
+    git push -u origin master
+    
+Check out your new repository on [github.com](www.github.com).
+
+You can now continue working locally and doing commits whenever you feel for it. *Push* your latest commits to the remote
+repository and the end of the day or whenever you added new functionality.
+
+If you want to continue working on your project on another machine or if you are a collaborator in someones project,
+just *clone* your project from there. The workflow for *cloning* your own or others repository is the same. What is 
+different are the permissions to *push* commits to it.
 
 ### Cloning an existing repository
 
+*Clone* this tutorial.
+Go to a new directory and type
+
     git clone https://github.com/NVE/nve-git-intro.git
     
-What has been done so far?
+Check out what has been done so far?
 
     git log
     
+Make some changes, commit them and try to push them to the remote repository.
+
 
 
 
 ## Tips and tricks
 
-- Stick to English when writing code.
-- If your project grows come up with a good structure. What is a good structure? Pfff...well, it is a start to stick to the next point
+- Stick to English when writing code. Thus, it is more likely that others understand and are able to contribute to your project.
+- If your project grows, come up with a good structure. What is a good structure? Pfff...well, it is a start to stick to the next point
 - Use meaningful and descriptive names for variables, functions, files, folders, ...
 - Don't use passwords or other sensitive information in your files - the world can see them (make proper use of .gitignore)
 - Don't talk dirty in your comments - again the world can read them and you represent NVE.
