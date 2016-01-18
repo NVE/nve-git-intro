@@ -5,8 +5,8 @@
 mkdir my_local_repo
 cd my_local_repo
 echo "# Header" > README.md
-echo "" > README.md
-echo "some text" > README.md
+echo "" >>README.md
+echo "some text" >> README.md
 
 # Now we initialize our *git* repository and check its status.
 git init

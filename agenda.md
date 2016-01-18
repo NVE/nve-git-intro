@@ -173,6 +173,7 @@ different are the permissions to *push* commits to it.
 Go to a new directory and type
 
     git clone https://github.com/NVE/nve-git-intro.git
+    cd nve-git-intro
     
 Check out what has been done so far?
 
