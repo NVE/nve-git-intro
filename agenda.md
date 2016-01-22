@@ -24,7 +24,7 @@ We continue with a discussion on:
 
 We recommend to bring a laptop with either *git* installed or being able to access h-fou01/02 where *git* is already 
 installed.
-You can download *git* from [here](www.git-scm.com/downloads), where you also find a free ebook about *git*.
+You can download *git* from [here](http://www.git-scm.com/downloads), where you also find a free ebook about *git*.
 Create a user account on [GitHub](www.github.com).
 
 
