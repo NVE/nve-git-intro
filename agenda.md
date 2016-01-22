@@ -25,7 +25,7 @@ We continue with a discussion on:
 We recommend to bring a laptop with either *git* installed or being able to access h-fou01/02 where *git* is already 
 installed.
 You can download *git* from [here](http://www.git-scm.com/downloads), where you also find a free ebook about *git*.
-Create a user account on [GitHub](www.github.com).
+Create a user account on [GitHub](http://www.github.com).
 
 
 ## Course details
@@ -132,7 +132,7 @@ More on branching in the [ebook](http://git-scm.com/book/en/v2/Git-Branching-Bra
 
 ## Sharing code online
 
-You need to register at [github.com](www.github.com).
+You need to register at [github.com](http://www.github.com).
 
 Now you can either *fork*, *clone*, or make your own projects.
 
@@ -144,7 +144,7 @@ We will not look int *forking* here, but you find more in the [ebook](http://git
 
 ### Creating a new repository on *GitHub.com*
 
-Got to [github.com](www.github.com) log in and choose *New repository*
+Got to [github.com](http://www.github.com) log in and choose *New repository*
 
 ![new repo](./img/newrepo.png)
 
