@@ -1,18 +1,23 @@
-# Managing projects (code, analysis ...) better, either alone or together, using Git / Github
+# Managing projects (code, datasets, documents ...) better, either alone or together, using Git / Github
 
-The intention is to help people to collaborate on projects within and across the different sections at the Hydrological Department at NVE.
+The goal with this workshop is to improve the collaboration within and between teams at the Hydrological Department at NVE.
 
-What is git?
+What is Git?
 
-- Git is a so-called version control system, it helps you to manage your work, if you work alone or collaborate in a team ([short intro video]https://git-scm.com/video/what-is-version-control)
+- Git is a so-called version control system, it helps you to manage your work, if you work alone or collaborate in a team ([short intro video](https://git-scm.com/video/what-is-version-control))
 
-- Github is a web platform used for collaboration: it makes it easy to present projects and to collaborate and contribute to projects
+What is Github?
+
+- Github is a web platform used for collaboration: it makes it easy to present projects and to collaborate and contribute to projects continuously
+
+Often we work together but do not take advantage of what is already available because it is (a) hard to find things that has already been done, (b) make small changes to existing code and make available to other persons, (c) hard to tr
+
 
 It sounds very technical, but after a few hours practice it is rather easy and hopefully saves us a lot of time.
 
 ## Preparations
 
-Bring a laptop if you have one with Git installed (see NVE Programvaresenter)
+Bring a laptop if you have one with "Git Desktop" installed (use NVE Programvaresenter to install the software)
 
 Create a user account on [GitHub](http://www.github.com).
 
