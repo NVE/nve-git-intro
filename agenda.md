@@ -34,12 +34,11 @@ Create a user account on [GitHub](http://www.github.com).
 - How to write a readme file on Github
 - How to put an existing project/code on Github
 
+## Useful resources
 
+- Learning Git command line: http://swcarpentry.github.io/git-novice/
 
-
-
-
-
+- Introduction example on Github: https://guides.github.com/activities/hello-world/
 
 ## Course details
 
