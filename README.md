@@ -25,9 +25,13 @@ Bring a laptop if you have one with "Git Desktop" installed (use NVE Programvare
 
 Create a user account on [GitHub](http://www.github.com).
 
+Gather some code which is suitable for sharing. It can be a small script to a large model.
+
 ## Agenda of the workshop
 
 ### Examples of why should we use Git / Github, intervened by exercises
+
+We start by showing some toy examples and play around with them.
 
 - Time machine (making backups with useful descriptions)
 - Branches (making copies of code and after edits unifying the copies into the original version)
@@ -38,8 +42,12 @@ Create a user account on [GitHub](http://www.github.com).
  
 ### Putting a real project on Github for collaboration
 
+We put real code or projects on Github. If possible, we also collaborate on those projects directly.
+
 - How to write a readme file on Github
 - How to put an existing project/code on Github
+
+After the workshop, the goal is that everyone should have an existing project on Github.
 
 ## Useful resources
 
