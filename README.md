@@ -44,6 +44,54 @@ Create a user account on [GitHub](http://www.github.com).
 
 ## Cheat sheet (summary of useful commands)
 
+### Configuring your git settings
+
+    git config --global user.name "change to your github account name"
+    git config --global user.email "change to your email address"
+
+    git config --list
+
+### Getting help
+
+    git config -h
+    git config --help
+
+### Initilize repository
+
+    git init
+
+### Get status
+
+    git status
+
+### Track changes for selected files
+
+    git add filename
+
+    git commit -m "write descriptive message"
+
+### Track changes for all changed files
+
+    git commit -m -a "write descriptive message"
+
+### Look at history and changes
+
+    git log
+    
+    git log --online
+    
+    git diff HEAD filename
+    
+    git diff HEAD~1 filename
+    
+    git diff ID_NUMBER filename
+
+### Recreate last commit
+
+    git checkout HEAD filename
+    
+    
+
 
 
 
