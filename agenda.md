@@ -10,10 +10,9 @@ What is Github?
 
 - Github is a web platform used for collaboration: it makes it easy to present projects and to collaborate and contribute to projects continuously
 
-Often we work together but do not take advantage of what is already available because it is (a) hard to find things that has already been done, (b) make small changes to existing code and make available to other persons, (c) hard to tr
+Often we work together but do not take advantage of what is already available because it is (a) hard to find things that has already been done, (b) improve or extend existing code and make available to other persons, (c) hard to track what different persons have changed and why etc.
 
-
-It sounds very technical, but after a few hours practice it is rather easy and hopefully saves us a lot of time.
+Git and Github is a bit technical, but after a few hours practice it is rather easy and hopefully saves us a lot of time.
 
 ## Preparations
 
