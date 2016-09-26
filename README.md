@@ -10,7 +10,14 @@ What is Github?
 
 - Github is a web platform used for collaboration: it makes it easy to present projects and to collaborate and contribute to projects continuously
 
-Often we work together, sharing files and codes on a shared computer, but do not take full advantage of what is already available because it is hard to (a) find things that has already been done, (b) improve or extend existing code and make available to other persons, (c) track what different persons have changed in a code and why etc. Git and Github solves some of these problems, is in the beginning a bit technical, but after a few hours practice it is rather easy to use and hopefully can save us a lot of time.
+Often we work together, perhaps sharing files on some common hard drive or cloud account, but this is problematic because it is often hard to:
+
+- Find things that has already been done. It is not to search on h felles.
+- Improve existing code and make available to others. We cannot suddenly changes someone elses code on a shared drive without coordination.
+- Make changes on the same files at the same time. It is not easy to combine the changes people have made after a while.
+- Go back to earlier versions if something does not work anymore.
+
+Git and Github solves some of these problems, is in the beginning a bit technical, but after a few hours practice it is rather easy to use and hopefully can save us a lot of time.
 
 ## Preparations
 
@@ -108,6 +115,14 @@ Create a user account on [GitHub](http://www.github.com).
     git add files
     git commit -m "write descriptive message"
     git push origin master
+
+### [Branches (aka copies)](https://www.atlassian.com/git/tutorials/using-branches/git-checkout)
+
+    git branch
+    git branch new-branch
+    git checkout new-branch
+    git merge new-branch
+    git branch -d new-branch
 
 ## Tips and tricks
 
