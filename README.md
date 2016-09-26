@@ -90,12 +90,35 @@ Create a user account on [GitHub](http://www.github.com).
 
     git checkout HEAD filename
     
+### Ignoring files
+
+    # Put stuff in .ignore file
     
+    git add .ignore
+    git commit -m "Add ignore file"
+    git status --ignored
+    
+### Adding remote
 
+    git remote add origin webb-address
+    
+    git remote -v
+    
+### Pushing / pulling
 
+    git push origin master
+    
+    git pull origin master
+    
+### Basic collaborative workflow
 
-
-
+    git pull origin master
+    
+    git add files
+    
+    git commit -m "write descriptive message"
+    
+    git push origin master
 
 ## Tips and tricks
 
