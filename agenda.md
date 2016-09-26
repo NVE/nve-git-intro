@@ -49,8 +49,10 @@ We start with a small project.
     
     mkdir my_local_repo
     cd my_local_repo
-    nano README.md # enter some text
-        
+    touch README.md
+
+Add some text to the readme file using some text editor.
+
 Now we initialize our *git* repository and check its status.
 
     git init        
@@ -84,16 +86,14 @@ There is also a log.
 
     git log
 
-Now, let's do some more changes, add some files, and commit often.
+Now, do some more changes of the readme file, add some files, and commit often.
 
-    nano README.md # some minor edits
-    
 To see what you’ve changed but not yet staged, type git diff with no other arguments.
     
     git diff
     git commit -a -m "My second commit" # (without staging like *git add* first)
     git log
-    nano hello.py
+    touch hello.py
     git add hello.py
     git commit -m "added python file"
     git status
@@ -121,9 +121,12 @@ We first create and switch to a new branch.
     git checkout participants
     # alternatively you could use *git checkout -b participants*
     
-We edit our working version
+We edit our working version.
     
-    nano participants.md # list all participants
+    touch participants.md # list all participants
+    
+Edit participants using some text editor.
+
     git add participants.md
     git commit -m 'added list of participants'
     
