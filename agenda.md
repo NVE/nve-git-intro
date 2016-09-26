@@ -1,31 +1,42 @@
-# Code sharing workshop 22.01.2016
+# Managing projects (code, analysis ...) better, either alone or together, using Git / Github
 
-The intention is to get started with code sharing across the different sections at the Hydrological Department at NVE.
+The intention is to help people to collaborate on projects within and across the different sections at the Hydrological Department at NVE.
 
-## Agenda
+What is git?
 
-### Part I
+- Git is a so-called version control system, it helps you to manage your work, if you work alone or collaborate in a team ([short intro video]https://git-scm.com/video/what-is-version-control)
 
-We start with a short intro to *git* and *GitHub* including:
+- Github is a web platform used for collaboration: it makes it easy to present projects and to collaborate and contribute to projects
 
-- Motivation
-- Using *git* locally
-- Working together using *GitHub*
- 
-### Part II
-
-We continue with a discussion on:
-
-- Platforms (GitHub, GitLab, Bitbucket, TFS, ...)
-- Public, private or both repos
-- Future setup and collaboration
+It sounds very technical, but after a few hours practice it is rather easy and hopefully saves us a lot of time.
 
 ## Preparations
 
-We recommend to bring a laptop with either *git* installed or being able to access h-fou01/02 where *git* is already 
-installed.
-You can download *git* from [here](http://www.git-scm.com/downloads), where you also find a free ebook about *git*.
+Bring a laptop if you have one with Git installed (see NVE Programvaresenter)
+
 Create a user account on [GitHub](http://www.github.com).
+
+## Agenda of the workshop
+
+### Examples of why should we use Git / Github, intervened by exercises
+
+- Time machine (making backups with useful descriptions)
+- Branches (making copies of code and after edits unifying the copies into the original version)
+- Collaborating on Github (pairs of people working on the same project at the same time)
+- Solving conflicts using Github desktop (changed the same file in multiple copies)
+- Collaborating together using Github + Github desktop
+- Tutorial of the Git command line
+ 
+### Putting a real project on Github for collaboration
+
+- How to write a readme file on Github
+- How to put an existing project/code on Github
+
+
+
+
+
+
 
 
 ## Course details
