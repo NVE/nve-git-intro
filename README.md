@@ -112,6 +112,8 @@ Create a user account on [GitHub](http://www.github.com).
     
 ### [Basic collaborative workflow](http://swcarpentry.github.io/git-novice/08-collab/)
 
+    git clone github_webaddress destination_folder
+
     git pull origin master
     
     git add files
