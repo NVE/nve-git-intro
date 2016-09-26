@@ -13,11 +13,11 @@ git config --list
 
 mkdir my_local_repo
 cd my_local_repo
-touch README.md
+touch README.txt
 
-# Edit the readme file using some text editor
+# Now make some changes to README.txt using a text editor.
 
-# Now we initialize our *git* repository and check its status.
+# Now we initialize our git repository and check its status.
 
 git init
 git status
@@ -25,7 +25,7 @@ git status
 # For our first commit we need to tell *git* which files we want to track.
 # With git add we tell which files git will take a snapshot of.
 
-git add *.md
+git add *.txt
 git status
 
 # Now we can commit our project and check the status again.
@@ -43,24 +43,34 @@ git log
 
 git log --oneline
 
-# Now, let's do some more changes, add some files, and commit often.
-
-echo "and more text" >> README.md # some minor edits
+# Now, add some more changes with a text editor to README.txt.
 
 # To see what you’ve changed but not yet staged, type git diff with no other arguments.
 
 git diff
+
+# Take a snapshot with git commit and look at the log.
+
 git commit -a -m "My second commit" # (without staging like *git add* first)
 git log
-echo "print 'Hello World'" > hello.py
-git add hello.py
+
+# Create a new file.
+
+touch hello.txt
+
+# Make some changes to the file using a text editor.
+
+# Add the file to the staging area and commit.
+
+git add hello.txt
 git commit -m "added python file"
 git status
 
-# Assume we did not want the hello.py file in our repo.
+# Assume we did not want the hello.py file in our repository.
+# First remove the actual file. Afterwards remove the file from the repository.
 
-rm hello.py
-git rm hello.py
+rm hello.txt
+git rm hello.txt
 git commit -m "removed python file"
 git log
 
