@@ -48,7 +48,6 @@ Create a user account on [GitHub](http://www.github.com).
 
     git config --global user.name "change to your github account name"
     git config --global user.email "change to your email address"
-
     git config --list
 
 ### Getting help
@@ -67,7 +66,6 @@ Create a user account on [GitHub](http://www.github.com).
 ### [Track changes for selected files](http://swcarpentry.github.io/git-novice/04-changes/)
 
     git add filename
-
     git commit -m "write descriptive message"
 
 ### Track changes for all changed files
@@ -77,13 +75,9 @@ Create a user account on [GitHub](http://www.github.com).
 ### [Look at history and changes](http://swcarpentry.github.io/git-novice/05-history/)
 
     git log
-    
     git log --online
-    
     git diff HEAD filename
-    
     git diff HEAD~1 filename
-    
     git diff ID_NUMBER filename
 
 ### Recreate last commit
@@ -93,7 +87,6 @@ Create a user account on [GitHub](http://www.github.com).
 ### [Ignoring files](http://swcarpentry.github.io/git-novice/06-ignore/)
 
     # Put stuff in .ignore file
-    
     git add .ignore
     git commit -m "Add ignore file"
     git status --ignored
@@ -101,25 +94,19 @@ Create a user account on [GitHub](http://www.github.com).
 ### [Adding remote](http://swcarpentry.github.io/git-novice/07-github/)
 
     git remote add origin webb-address
-    
     git remote -v
     
 ### Pushing / pulling
 
     git push origin master
-    
     git pull origin master
     
 ### [Basic collaborative workflow](http://swcarpentry.github.io/git-novice/08-collab/)
 
     git clone github_webaddress destination_folder
-
     git pull origin master
-    
     git add files
-    
     git commit -m "write descriptive message"
-    
     git push origin master
 
 ## Tips and tricks
