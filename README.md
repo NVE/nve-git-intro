@@ -12,10 +12,10 @@ What is Github?
 
 Often we work together, perhaps sharing files on some common hard drive or cloud account, but this is problematic because it is often hard to:
 
-- Find things that has already been done. It is not to search on h felles.
+- Find things that has already been done. For example, it is not easy to search common hard drives (H felles).
 - Improve existing code and make available to others. We cannot suddenly changes someone elses code on a shared drive without coordination.
 - Make changes on the same files at the same time. It is not easy to combine the changes people have made after a while.
-- Go back to earlier versions if something does not work anymore.
+- Go back to earlier versions if something does not work anymore. We lack backups made at important points in time.
 
 Git and Github solves some of these problems, is in the beginning a bit technical, but after a few hours practice it is rather easy to use and hopefully can save us a lot of time.
 
@@ -50,6 +50,8 @@ We put real code or projects on Github. If possible, we also collaborate on thos
 After the workshop, the goal is that everyone should have an existing project on Github.
 
 ## Useful resources
+
+If you have time and motivation before the workshop:
 
 - This [page](http://swcarpentry.github.io/git-novice/) explains the basics of Git and Github very well. It takes a couple of hours to walk through the examples, and works as a good reference while working with the programs.
 
