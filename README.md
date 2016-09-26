@@ -44,7 +44,7 @@ Create a user account on [GitHub](http://www.github.com).
 
 ## Cheat sheet (summary of useful commands)
 
-### Configuring your git settings
+### [Configuring your git settings](http://swcarpentry.github.io/git-novice/02-setup/)
 
     git config --global user.name "change to your github account name"
     git config --global user.email "change to your email address"
@@ -56,15 +56,15 @@ Create a user account on [GitHub](http://www.github.com).
     git config -h
     git config --help
 
-### Initilize repository
+### [Initilize repository](http://swcarpentry.github.io/git-novice/03-create/)
 
     git init
 
-### Get status
+### [Get status](http://swcarpentry.github.io/git-novice/03-create/)
 
     git status
 
-### Track changes for selected files
+### [Track changes for selected files](http://swcarpentry.github.io/git-novice/04-changes/)
 
     git add filename
 
@@ -74,7 +74,7 @@ Create a user account on [GitHub](http://www.github.com).
 
     git commit -m -a "write descriptive message"
 
-### Look at history and changes
+### [Look at history and changes](http://swcarpentry.github.io/git-novice/05-history/)
 
     git log
     
@@ -90,7 +90,7 @@ Create a user account on [GitHub](http://www.github.com).
 
     git checkout HEAD filename
     
-### Ignoring files
+### [Ignoring files](http://swcarpentry.github.io/git-novice/06-ignore/)
 
     # Put stuff in .ignore file
     
@@ -98,7 +98,7 @@ Create a user account on [GitHub](http://www.github.com).
     git commit -m "Add ignore file"
     git status --ignored
     
-### Adding remote
+### [Adding remote](http://swcarpentry.github.io/git-novice/07-github/)
 
     git remote add origin webb-address
     
@@ -110,7 +110,7 @@ Create a user account on [GitHub](http://www.github.com).
     
     git pull origin master
     
-### Basic collaborative workflow
+### [Basic collaborative workflow](http://swcarpentry.github.io/git-novice/08-collab/)
 
     git pull origin master
     
