@@ -76,27 +76,44 @@ git log
 
 ### Branching
 
-# Branching allows you to experiment with your current code without the need to roll back if things go wrong.
-# It is nice for testing new features. It becomes essential when you work with production code, where you always need to  be able to fix bugs in the production version while working on new features.
-# Here is a quick run through
+# Branching allows you to make a copy of your existing code, and do changes on that copy.
+# You can always quickly swap back to your original copy if you need that version.
+# With this approach, you can keep a working version of the code available, while doing changes to another version.
+# It is nice for testing new features. It becomes essential when you work with production code (e.g. operational flood forecasting model), 
+# where you always need to be able to fix bugs in the operational version while working on new features.
+# Here is a quick run through.
 
 # We first create and switch to a new branch.
+
 git branch participants
 git checkout participants
-# alternatively you could use *git checkout -b participants*
 
-# We edit our working version
-echo "#Participants" > participants.md # list all participants
-echo "kmu" >> participants.md
-echo "raek" >> participants.md
-git add participants.md
+touch participants.txt
+
+# Edit the participants file using some text editor.
+
+# You can swap back to the original version, called master, as follows.
+
+git checkout master
+
+# If you look at the folder my_local_repo, you will notice that the participants file is gone.
+# You are now looking at the original files. Go back to the participants.
+
+git checkout participants
+
+# Add the file to the staging area (i.e. the files you want to track) and take a snapshot using commit.
+
+git add participants.txt
 git commit -m 'added list of participants'
 
-# Once we have tested our branch and everything seems fine we can *merge* it with the main or *master* branch.
+# Once we have tested our branch and everything seems fine we can "merge" it with the master branch.
+# A merge unifies the two verions.
+
 git checkout master
 git merge participants
 
-# Now we can remove the *participants* branch and check the status and log of our project.
+# Now we can remove the participants branch and check the status and log of our project.
+
 git branch -d participants
 git status
 git log
