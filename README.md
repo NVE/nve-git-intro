@@ -25,7 +25,7 @@ Bring a laptop if you have one with "Git Desktop" installed (use NVE Programvare
 
 Create a user account on [GitHub](http://www.github.com).
 
-Gather some code which is suitable for sharing. It can be a small script to a large model.
+Gather some code which is suitable for sharing. It can be a small script or a large model.
 
 ## Agenda of the workshop
 
