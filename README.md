@@ -13,15 +13,15 @@ What is Github?
 Often we work together, perhaps sharing files on some common hard drive or cloud account, but this is problematic because it is often hard to:
 
 - Find things that has already been done. For example, it is not easy to search common hard drives (H felles).
-- Improve existing code and make available to others. We cannot suddenly changes someone elses code on a shared drive without coordination.
+- Improve existing code and make available to others. We cannot suddenly change someone else's code on a shared drive without coordination.
 - Make changes on the same files at the same time. It is not easy to combine the changes people have made after a while.
 - Go back to earlier versions if something does not work anymore. We lack backups made at important points in time.
 
-Git and Github solves some of these problems, is in the beginning a bit technical, but after a few hours practice it is rather easy to use and hopefully can save us a lot of time.
+Git (and Github) solves some of these problems. It is in the beginning a bit technical, but after a few hours practice it is rather easy to use and hopefully can save us a lot of time.
 
 ## Preparations
 
-Bring a laptop if you have one with "Git Desktop" installed (use NVE Programvaresenter to install the software)
+Bring a laptop, if you have one, with "Git Desktop" installed (use NVE Programvaresenter to install the software)
 
 Create a user account on [GitHub](http://www.github.com).
 
@@ -29,15 +29,15 @@ Gather some code which is suitable for sharing. It can be a small script or a la
 
 ## Agenda of the workshop
 
-### Examples of why should we use Git / Github, intervened by exercises
+### Examples of why we should use Git / Github, intervened by exercises
 
 We start by showing some toy examples and play around with them.
 
 - Time machine (making backups with useful descriptions)
-- Branches (making copies of code and after edits unifying the copies into the original version)
+- Branches (making copies of code and, after edits, merging the copies into the original version)
 - Collaborating on Github (pairs of people working on the same project at the same time)
-- Solving conflicts using Github desktop (changed the same file in multiple copies)
-- Collaborating together using Github + Github desktop
+- Solving conflicts using Github desktop (changing the same file in multiple copies)
+- Collaborating using Github + Github desktop
 - Tutorial of the Git command line
  
 ### Putting a real project on Github for collaboration
@@ -58,6 +58,12 @@ If you have time and motivation before the workshop:
 - This [page](https://guides.github.com/activities/hello-world/) shows an introduction to Github, and some basic concepts.
 
 - Also look at this [file](https://github.com/jmgnve/nve-git-intro/blob/master/git-intro.sh) for some examples.
+
+## Key vocabulary 
+
+**repository** description 
+**push**
+**pull**
 
 ## Cheat sheet (summary of useful commands)
 
