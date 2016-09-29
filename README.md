@@ -69,6 +69,8 @@ If you have time and motivation before the workshop:
 
 ### [Configuring your git settings](http://swcarpentry.github.io/git-novice/02-setup/)
 
+Setup user info for git on your machine.
+
     git config --global user.name "change to your github account name"
     git config --global user.email "change to your email address"
     git config --list
