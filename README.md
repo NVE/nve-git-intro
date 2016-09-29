@@ -85,10 +85,14 @@ Setup user info for git on your machine.
 
 ### Getting help
 
+Help for specific command.
+
     git config -h
     git config --help
 
 ### [Initilize repository](http://swcarpentry.github.io/git-novice/03-create/)
+
+Run in the folder where you want to track files.
 
     git init
 
@@ -97,6 +101,8 @@ Setup user info for git on your machine.
     git status
 
 ### [Track changes for selected files](http://swcarpentry.github.io/git-novice/04-changes/)
+
+This basically saves the current version of the file in the "git database".
 
     git add filename
     git commit -m "write descriptive message"
@@ -113,9 +119,10 @@ Setup user info for git on your machine.
     git diff HEAD~1 filename
     git diff ID_NUMBER filename
 
-### Revert last commit (go back to the previous save)
+### Look at an old version of a file
 
     git checkout HEAD filename
+    git checkout ID_NUMBER filename
     
 ### [Ignoring files](http://swcarpentry.github.io/git-novice/06-ignore/)
 
@@ -126,10 +133,14 @@ Setup user info for git on your machine.
     
 ### [Adding remote](http://swcarpentry.github.io/git-novice/07-github/)
 
+Adding a repository on internet (Github)
+
     git remote add origin webb-address
     git remote -v
     
 ### Pushing / pulling
+
+Syncing to (push) or from (pull) Github
 
     git push origin master
     git pull origin master
