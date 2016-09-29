@@ -61,9 +61,17 @@ If you have time and motivation before the workshop:
 
 ## Key vocabulary 
 
-**repository** description 
-**push**
-**pull**
+The Git system uses several specific terms to describe the collaboration process.
+Please consult this [glossary](https://help.github.com/articles/github-glossary/) for a good overview.
+
+# For a simple use of Git as a *time machine* with no branches nor collaborators, the following terms are important:
+repository, clone, commit, push, pull, diff, remote
+# To use branches, the following terms are important:
+branch, merge
+# Finally. to collaborate:
+upstream, pull request, fetch, collaborator, contributor, issue
+
+This [page](https://www.kernel.org/pub/software/scm/git/docs/gitglossary.html) presents a more exhaustive glossary of terms (i.e. origin, master, rebase, head...). 
 
 ## Cheat sheet (summary of useful commands)
 
@@ -105,7 +113,7 @@ Setup user info for git on your machine.
     git diff HEAD~1 filename
     git diff ID_NUMBER filename
 
-### Recreate last commit
+### Revert last commit (go back to the previous save)
 
     git checkout HEAD filename
     
