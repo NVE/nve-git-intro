@@ -129,7 +129,14 @@ This basically saves the current version of the file in the "git database".
 
     git checkout HEAD filename
     git checkout ID_NUMBER filename
-    
+
+### [How to look at an old version of the whole repository](https://www.atlassian.com/git/tutorials/using-branches/git-checkout)
+
+    # If you realize that one specific commit brought new bugs:
+    git revert SPECIFIC_COMMIT_NUMBER
+    # If you want to explore the whole repository at a specific commit
+    git checkout SPECIFIC_COMMIT_NUMBER
+
 ### [Ignoring files](http://swcarpentry.github.io/git-novice/06-ignore/)
 
     # Create a hidden text file called .gitignore and put files that should not be added to the repository
@@ -180,6 +187,7 @@ Then, use the following commands to syncronize your local changes to Github (*pu
     git checkout new-branch
     git merge new-branch
     git branch -d new-branch
+
 
 ## Tips and tricks
 
