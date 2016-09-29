@@ -65,13 +65,13 @@ The Git system uses several specific terms to describe the collaboration process
 Please consult this [glossary](https://help.github.com/articles/github-glossary/) for a good overview.
 
 - For a simple use of Git and Github as a *time machine* with no branches nor collaborators, the following terms are important:
-repository, clone, commit, push, pull, diff, , staging area
+*repository, clone, commit, push, pull, diff, , staging area*
 - To use branches, the following terms are important:
-branch, merge
+*branch, merge*
 - Finally, to collaborate:
-upstream, pull request, fetch, collaborator, contributor, issue
+*upstream, pull request, fetch, collaborator, contributor, issue*
 
-This [page](https://www.kernel.org/pub/software/scm/git/docs/gitglossary.html) presents a more exhaustive glossary of terms (i.e. origin, master, rebase, head...). 
+This [page](https://www.kernel.org/pub/software/scm/git/docs/gitglossary.html) presents a more exhaustive glossary of terms (i.e. *origin, master, rebase, head...*). 
 
 ## Cheat sheet (summary of useful commands)
 
