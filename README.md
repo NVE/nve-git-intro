@@ -96,6 +96,9 @@ Run in the folder where you want to track files.
 
     git init
 
+Do not forget to create an empty repository with the same name on Github.
+This will be required when pushing your first local commit to Github.
+
 ### [Get status](http://swcarpentry.github.io/git-novice/03-create/)
 
     git status
@@ -114,7 +117,7 @@ This basically saves the current version of the file in the "git database".
 ### [Look at history and changes](http://swcarpentry.github.io/git-novice/05-history/)
 
     git log
-    git log --online
+    git log --oneline
     git diff HEAD filename
     git diff HEAD~1 filename
     git diff ID_NUMBER filename
@@ -126,21 +129,35 @@ This basically saves the current version of the file in the "git database".
     
 ### [Ignoring files](http://swcarpentry.github.io/git-novice/06-ignore/)
 
-    # Put stuff in .ignore file
-    git add .ignore
+    # Create a hidden text file called .gitignore and put files that should not be added to the repository
+    git add .gitignore
     git commit -m "Add ignore file"
     git status --ignored
     
+    # An example of .gitignore with R:
+    .Rproj.user
+    .Rhistory
+    rsconnect/*
+    *.rda
+    *.RData
+    # Those files will be present in your local folder but will never be uploaded to Github, unless specifically calling:
+    git add -f some_ignored_file.rda
+    
 ### [Adding remote](http://swcarpentry.github.io/git-novice/07-github/)
 
-Adding a repository on internet (Github)
+Linking your local repository to the internet (Github)
 
-    git remote add origin webb-address
+    git remote add origin https://github.com/USER_NAME/REPOSITORY_NAME.git
     git remote -v
+    # This last command will show you the links between your local repository and Github
+    > origin  https://github.com/USER_NAME/REPOSITORY_NAME.git (fetch)
+    > origin  https://github.com/USER_NAME/REPOSITORY_NAME.git (push) 
     
 ### Pushing / pulling
 
-Syncing to (push) or from (pull) Github
+Until now, all the steps were done on your local machine only.
+Make sure that a repository with the same name is already created on your Github account.
+Then, use the following commands to syncronize your local changes to Github (*push* to send updates to the web, or *pull* to get updates):
 
     git push origin master
     git pull origin master
