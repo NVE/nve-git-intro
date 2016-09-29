@@ -19,7 +19,7 @@ Often we work together, perhaps sharing files on some common hard drive or cloud
 
 Git (and Github) solves some of these problems. It is in the beginning a bit technical, but after a few hours practice it is rather easy to use and hopefully can save us a lot of time.
 
-## Preparations
+## Important: Preparations before workshop
 
 Bring a laptop, if you have one, with "Git Desktop" installed (use NVE Programvaresenter to install the software)
 
