@@ -64,7 +64,7 @@ If you have time and motivation before the workshop:
 The Git system uses several specific terms to describe the collaboration process.
 Please consult this [glossary](https://help.github.com/articles/github-glossary/) for a good overview.
 
-- For a simple use of Git as a *time machine* with no branches nor collaborators, the following terms are important:
+- For a simple use of Git and Github as a *time machine* with no branches nor collaborators, the following terms are important:
 repository, clone, commit, push, pull, diff, remote
 - To use branches, the following terms are important:
 branch, merge
