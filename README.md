@@ -71,7 +71,10 @@ Please consult this [glossary](https://help.github.com/articles/github-glossary/
 - Finally, to collaborate:
 *upstream, pull request, fetch, collaborator, contributor, issue*
 
-This [page](https://www.kernel.org/pub/software/scm/git/docs/gitglossary.html) presents a more exhaustive glossary of terms (i.e. *origin, master, rebase, head...*). 
+This [page](https://www.kernel.org/pub/software/scm/git/docs/gitglossary.html) presents a more exhaustive glossary of terms (i.e. *origin, master, rebase, head...*).
+
+**NOTE** In order to use the Github website and the Github Desktop application (for personal work or collaboration), it is good to understand those git-specific terms. However, both personal work (*time machine*) or collaborative work can be done entirely without using shell commands (with Github and Github desktop application only).
+In some cases, shell commands are compulsory. Some key commands are presented below:
 
 ## Cheat sheet (summary of useful commands)
 
