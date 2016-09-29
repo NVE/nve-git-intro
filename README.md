@@ -123,19 +123,19 @@ This basically saves the current version of the file in the "git database".
     git log --oneline
     git diff HEAD filename
     git diff HEAD~1 filename
-    git diff ID_NUMBER filename
+    git diff COMMIT_ID_NUMBER filename
 
 ### Look at an old version of a file
 
     git checkout HEAD filename
-    git checkout ID_NUMBER filename
+    git checkout COMMIT_ID_NUMBER filename
 
 ### [How to look at an old version of the whole repository](https://www.atlassian.com/git/tutorials/using-branches/git-checkout)
 
     # If you realize that one specific commit brought new bugs:
-    git revert SPECIFIC_COMMIT_NUMBER
+    git revert COMMIT_ID_NUMBER
     # If you want to explore the whole repository at a specific commit
-    git checkout SPECIFIC_COMMIT_NUMBER
+    git checkout COMMIT_ID_NUMBER
 
 ### [Ignoring files](http://swcarpentry.github.io/git-novice/06-ignore/)
 
