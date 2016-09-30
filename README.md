@@ -73,7 +73,7 @@ Please consult this [glossary](https://help.github.com/articles/github-glossary/
 
 This [page](https://www.kernel.org/pub/software/scm/git/docs/gitglossary.html) presents a more exhaustive glossary of terms (i.e. *origin, master, rebase, head...*).
 
-**NOTE** In order to use the Github website and the Github Desktop application (for personal work or collaboration), it is good to understand those git-specific terms. However, both personal work (*time machine*) or collaborative work can be done entirely without using shell commands (with Github and Github desktop application only).
+**NOTE:** In order to use the Github website and the Github Desktop application (for personal work or for collaboration), it is good to understand those git-specific terms. However, both personal work (*time machine*) or collaborative work can be done entirely without using shell commands (with Github and Github desktop application only).
 In some cases, shell commands are compulsory. Some key commands are presented below:
 
 ## Cheat sheet (summary of useful commands)
@@ -106,14 +106,14 @@ This will be required when pushing your first local commit to Github.
 
     git status
 
-### [Track changes for selected files](http://swcarpentry.github.io/git-novice/04-changes/)
+### [Record changes for selected files](http://swcarpentry.github.io/git-novice/04-changes/)
 
-This basically saves the current version of the file in the "git database".
+This saves the current version of the file in the "git database", which allows you to keep a record of what changes were made when and by who. Note that this step is not "committing" in the literal english sense and should be done regularly, even if the code is still buggy or not quite finished.
 
     git add filename
     git commit -m "write descriptive message"
 
-### Track changes for all changed files
+### Record changes for all changed files
 
     git commit -m -a "write descriptive message"
 
