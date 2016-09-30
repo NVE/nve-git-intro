@@ -15,7 +15,7 @@ Often we work together, perhaps sharing files on some common hard drive or cloud
 - Find things that has already been done. For example, it is not easy to search common hard drives (H felles).
 - Improve existing code and make available to others. We cannot suddenly change someone else's code on a shared drive without coordination.
 - Make changes on the same files at the same time. It is not easy to combine the changes people have made after a while.
-- Go back to earlier versions if something does not work anymore. We lack backups made at important points in time.
+- Go back to earlier versions if something does not work anymore. We sometimes lack backups made at important points in time.
 
 Git (and Github) solves some of these problems. It is in the beginning a bit technical, but after a few hours practice it is rather easy to use and hopefully can save us a lot of time.
 
@@ -26,6 +26,8 @@ Bring a laptop, if you have one, with "Git Desktop" installed (use NVE Programva
 Create a user account on [GitHub](http://www.github.com).
 
 Gather some code which is suitable for sharing. It can be a small script or a large model.
+
+Note: Git is also installed on hfou2 and hfou4 so some of the excercises can be made there.
 
 ## Agenda of the workshop
 
@@ -65,7 +67,7 @@ The Git system uses several specific terms to describe the collaboration process
 Please consult this [glossary](https://help.github.com/articles/github-glossary/) for a good overview.
 
 - For a simple use of Git and Github as a *time machine* with no branches nor collaborators, the following terms are important:
-*repository, clone, commit, push, pull, diff, , staging area*
+*repository, clone, commit, push, pull, diff, staging area*
 - To use branches, the following terms are important:
 *branch, merge*
 - Finally, to collaborate:
@@ -100,7 +102,7 @@ Run in the folder where you want to track files.
     git init
 
 Do not forget to create an empty repository with the same name on Github.
-This will be required when pushing your first local commit to Github.
+This will be required when pushing (uploading) your first local commit to Github.
 
 ### [Get status](http://swcarpentry.github.io/git-novice/03-create/)
 
@@ -134,7 +136,7 @@ This saves the current version of the file in the "git database", which allows y
 
     # If you realize that one specific commit brought new bugs:
     git revert COMMIT_ID_NUMBER
-    # If you want to explore the whole repository at a specific commit
+    # If you want to explore the whole repository at a specific commit:
     git checkout COMMIT_ID_NUMBER
 
 ### [Ignoring files](http://swcarpentry.github.io/git-novice/06-ignore/)
@@ -195,7 +197,6 @@ Then, use the following commands to syncronize your local changes to Github (*pu
 - If your project grows, come up with a good structure. What is a good structure? Pfff...well, it is a start to stick to the next point
 - Use meaningful and descriptive names for variables, functions, files, folders, ...
 - Don't use passwords or other sensitive information in your files - the world can see them (make proper use of .gitignore)
-- Don't talk dirty in your comments - again the world can read them and you represent NVE.
 - There is plenty of great information on the web. We found those 3 websites to be particularly useful:
   - [Software carpentry course of Git](http://swcarpentry.github.io/git-novice/)
   - [Github help](https://help.github.com/)
