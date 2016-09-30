@@ -197,9 +197,9 @@ Then, use the following commands to syncronize your local changes to Github (*pu
 - Don't use passwords or other sensitive information in your files - the world can see them (make proper use of .gitignore)
 - Don't talk dirty in your comments - again the world can read them and you represent NVE.
 - There is plenty of great information on the web. We found those 3 websites to be particularly useful:
-  o [Software carpentry course of Git](http://swcarpentry.github.io/git-novice/)
-  o [Github help](https://help.github.com/)
-  o [www.atlassian.com](https://www.atlassian.com/git/tutorials/what-is-version-control)
+  - [Software carpentry course of Git](http://swcarpentry.github.io/git-novice/)
+  - [Github help](https://help.github.com/)
+  - [www.atlassian.com](https://www.atlassian.com/git/tutorials/what-is-version-control)
 - Solutions to specific problems can often be found on [StackOverflow](http://stackoverflow.com/)
 
 
