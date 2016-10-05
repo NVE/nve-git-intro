@@ -14,6 +14,8 @@
 
 - Testing runoff models (https://github.com/jmgnve/NVE_RUNOFF_TEST_DATA)
 
+- Go programming language (https://github.com/golang/go)
+
 ### Research institutes on Github
 
 - Met.no (https://github.com/metno)
