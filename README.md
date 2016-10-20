@@ -1,7 +1,5 @@
 # Managing projects (code, datasets, documents ...) better, either alone or together, using Git / Github
 
-The goal with this workshop is to improve the collaboration within and between teams at the Hydrological Department at NVE.
-
 What is Git?
 
 - Git is a so-called version control system, it helps you to manage your work, if you work alone or collaborate in a team ([short intro video](https://git-scm.com/video/what-is-version-control))
@@ -15,17 +13,17 @@ Often we work together, perhaps sharing files on some common hard drive or cloud
 - Find things that has already been done. For example, it is not easy to search common hard drives (H felles).
 - Improve existing code and make available to others. We cannot suddenly change someone else's code on a shared drive without coordination.
 - Make changes on the same files at the same time. It is not easy to combine the changes people have made after a while.
-- Go back to earlier versions if something does not work anymore. We sometimes lack backups made at important points in time.
+- Go back to earlier versions if something does not work anymore. We sometimes lack backups made at important points in time. Git + github works like a backup system.
 
-Git (and Github) solves some of these problems. It is in the beginning a bit technical, but after a few hours practice it is rather easy to use and hopefully can save us a lot of time.
+Git and Github solves some of these problems. It is in the beginning a bit technical, but after a few hours practice it is rather easy to use and hopefully can save us a lot of time.
 
 ## Preparations for using git and github
 
-Install "Git Desktop" using "NVE Programvaresenter".
-
 Create a user account on [GitHub](http://www.github.com).
 
-Note: Git is also installed on hfou2 and hfou4 so some of the excercises can be made there.
+There is a graphical user interface for git called "Git Desktop" available to install at "NVE Programvaresenter". This also installs a shell version of git on Windows. The shell git commands are also available on linux machines hfou2 and hfou4.
+
+Ask Ragnar Ekker or Karsten Müller for membership in the Github [NVE group](https://github.com/NVE).
 
 ## Useful resources
 
