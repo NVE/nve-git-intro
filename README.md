@@ -25,11 +25,11 @@ There is a graphical user interface for git called "Git Desktop" available to in
 
 Ask Ragnar Ekker or Karsten Müller for membership in the Github [NVE group](https://github.com/NVE).
 
-## Useful resources
+## Learning git and github
 
-If you have time and motivation before the workshop:
+- This [page](http://swcarpentry.github.io/git-novice/) explains the basics of Git and Github very well. It takes a couple of hours to walk through the examples, and works as a good reference while working with the programs. The tutorial only uses shell commands and works on the windows "Git shell" application, or direcly on the terminal for hfou2 and hfou4.
 
-- This [page](http://swcarpentry.github.io/git-novice/) explains the basics of Git and Github very well. It takes a couple of hours to walk through the examples, and works as a good reference while working with the programs.
+- The github desktop application works only on windows. This [link](https://www.youtube.com/watch?v=om42hY4A5Qg) shows and introduction video.
 
 - This [page](https://guides.github.com/activities/hello-world/) shows an introduction to Github, and some basic concepts.
 
