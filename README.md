@@ -64,7 +64,21 @@ On this [link](https://www.youtube.com/watch?v=Vxy5b5KpN7E) you find a short vid
 
 On this [page](http://swcarpentry.github.io/git-novice/08-collab/) you find a short explantion of a simple collaborative workflow.
 
+Here is a short suggestion:
+
+1. Clone a repository.
+
+2. Ask the original owner of the repository to become a collaborator.
+
+3. Create your own development branch.
+
+4. Work on this branch.
+
+5. Create pull requests to combine your changes in your branch into the master branch.
+
 ## Cheat sheet (summary of useful commands)
+
+Click on the blue titles to get more information about the commands below.
 
 ### [Configuring your git settings](http://swcarpentry.github.io/git-novice/02-setup/)
 
