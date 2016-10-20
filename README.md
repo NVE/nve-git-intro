@@ -76,6 +76,10 @@ Here is a short suggestion:
 
 5. Create pull requests to combine your changes in your branch into the master branch.
 
+## Creating a readme
+
+When you create a repository on github, it will ask you whether to create a readme file or not. It is very important to create a readme so that others understand what you have done and how your code works. To edit your readme file, you need to use so-called Markdown syntax. See this [link](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) for key commands. If you have not created a readme file when you created your repository, just make a new file called "README.md" in the root directory of the repository.
+
 ## Cheat sheet (summary of useful commands)
 
 Click on the blue titles to get more information about the commands below.
