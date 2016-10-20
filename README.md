@@ -19,37 +19,13 @@ Often we work together, perhaps sharing files on some common hard drive or cloud
 
 Git (and Github) solves some of these problems. It is in the beginning a bit technical, but after a few hours practice it is rather easy to use and hopefully can save us a lot of time.
 
-## Important: Preparations before workshop
+## Preparations for using git and github
 
-Bring a laptop, if you have one, with "Git Desktop" installed (use NVE Programvaresenter to install the software)
+Install "Git Desktop" using "NVE Programvaresenter".
 
 Create a user account on [GitHub](http://www.github.com).
 
-Gather some code which is suitable for sharing. It can be everything from a small script to a large model.
-
 Note: Git is also installed on hfou2 and hfou4 so some of the excercises can be made there.
-
-## Agenda of the workshop
-
-### Examples of why we should use Git / Github, intervened by exercises
-
-We start by showing some toy examples and play around with them.
-
-- Time machine (making backups with useful descriptions)
-- Branches (making copies of code and, after edits, merging the copies into the original version)
-- Collaborating on Github (pairs of people working on the same project at the same time)
-- Solving conflicts using Github desktop (changing the same file in multiple copies)
-- Collaborating using Github + Github desktop
-- Tutorial of the Git command line
- 
-### Putting a real project on Github for collaboration
-
-We put real code or projects on Github. If possible, we also collaborate on those projects directly.
-
-- How to write a readme file on Github
-- How to put an existing project/code on Github
-
-After the workshop, the goal is that everyone should have an existing project on Github.
 
 ## Useful resources
 
@@ -77,6 +53,18 @@ This [page](https://www.kernel.org/pub/software/scm/git/docs/gitglossary.html) p
 
 **NOTE:** In order to use the Github website and the Github Desktop application (for personal work or for collaboration), it is good to understand those git-specific terms. However, both personal work (*time machine*) or collaborative work can be done entirely without using shell commands (with Github and Github desktop application only).
 In some cases, shell commands are compulsory. Some key commands are presented below:
+
+## Important workflows
+
+This section contains recommendations for workflows on how to use git and github at NVE.
+
+### Quick start guide to git/github
+
+On this [link](https://www.youtube.com/watch?v=Vxy5b5KpN7E) you find a short video explaining git and github.
+
+### Simple collaborative workflow
+
+On this [page](http://swcarpentry.github.io/git-novice/08-collab/) you find a short explantion of a simple collaborative workflow.
 
 ## Cheat sheet (summary of useful commands)
 
@@ -203,4 +191,25 @@ Then, use the following commands to syncronize your local changes to Github (*pu
   - [www.atlassian.com](https://www.atlassian.com/git/tutorials/what-is-version-control)
 - Solutions to specific problems can often be found on [StackOverflow](http://stackoverflow.com/)
 
+## Agenda for a workshop
+
+### Examples of why we should use Git / Github, intervened by exercises
+
+We start by showing some toy examples and play around with them.
+
+- Time machine (making backups with useful descriptions)
+- Branches (making copies of code and, after edits, merging the copies into the original version)
+- Collaborating on Github (pairs of people working on the same project at the same time)
+- Solving conflicts using Github desktop (changing the same file in multiple copies)
+- Collaborating using Github + Github desktop
+- Tutorial of the Git command line
+ 
+### Putting a real project on Github for collaboration
+
+We put real code or projects on Github. If possible, we also collaborate on those projects directly.
+
+- How to write a readme file on Github
+- How to put an existing project/code on Github
+
+After the workshop, the goal is that everyone should have an existing project on Github.
 
