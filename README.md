@@ -25,6 +25,34 @@ There is a graphical user interface for git called "Git Desktop" available to in
 
 Ask Ragnar Ekker or Karsten Müller for membership in the Github [NVE group](https://github.com/NVE).
 
+## Important workflows
+
+This section contains recommendations for workflows on how to use git and github at NVE.
+
+### Quick start guide to git/github
+
+On this [link](https://www.youtube.com/watch?v=Vxy5b5KpN7E) you find a short video explaining git and github.
+
+### Simple collaborative workflow - 
+
+On this [page](http://swcarpentry.github.io/git-novice/08-collab/) you find a short explantion of a simple collaborative workflow.
+
+#### Contributing to an existing repository
+
+1. Ask the original owner of the repository to become a collaborator.
+
+2. The original owner should protect the master branch
+
+3. Clone the repository either on github.com, GitHub desctop or GitHub shell.
+
+4. Create your own development branch.(Branch icon on GitHub desktop)
+
+5. Work on this branch. (Make this branch active in GitHub desktop, and then start editing files)
+
+6. Commit your changes.(select 'Changes' in GitHub descrop, write a small description, and press 'commit')
+
+7. Create pull requests to combine your changes in your branch into the master branch. (use 'synch' in GitHub desktop)
+
 ## Learning git and github
 
 - This [page](http://swcarpentry.github.io/git-novice/) explains the basics of Git and Github very well. It takes a couple of hours to walk through the examples, and works as a good reference while working with the programs. The tutorial only uses shell commands and works on the windows "Git shell" application, or direcly on the terminal for hfou2 and hfou4.
@@ -52,29 +80,7 @@ This [page](https://www.kernel.org/pub/software/scm/git/docs/gitglossary.html) p
 **NOTE:** In order to use the Github website and the Github Desktop application (for personal work or for collaboration), it is good to understand those git-specific terms. However, both personal work (*time machine*) or collaborative work can be done entirely without using shell commands (with Github and Github desktop application only).
 In some cases, shell commands are compulsory. Some key commands are presented below:
 
-## Important workflows
 
-This section contains recommendations for workflows on how to use git and github at NVE.
-
-### Quick start guide to git/github
-
-On this [link](https://www.youtube.com/watch?v=Vxy5b5KpN7E) you find a short video explaining git and github.
-
-### Simple collaborative workflow
-
-On this [page](http://swcarpentry.github.io/git-novice/08-collab/) you find a short explantion of a simple collaborative workflow.
-
-Here is a short suggestion:
-
-1. Clone a repository.
-
-2. Ask the original owner of the repository to become a collaborator.
-
-3. Create your own development branch.
-
-4. Work on this branch.
-
-5. Create pull requests to combine your changes in your branch into the master branch.
 
 ## Creating a readme
 
