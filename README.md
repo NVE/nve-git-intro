@@ -51,7 +51,9 @@ On this [page](http://swcarpentry.github.io/git-novice/08-collab/) you find a sh
 
 6. Commit your changes.(select 'Changes' in GitHub descrop, write a small description, and press 'commit')
 
-7. Create pull requests to combine your changes in your branch into the master branch. (use 'synch' in GitHub desktop)
+7. Create pull requests to combine your changes in your branch into the master branch. (use 'synch' in GitHub desktop and then make pull request on github.com)
+
+8. The repository owner will need to accept the changes.
 
 ## Learning git and github
 
